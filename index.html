@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07152f"><meta name="description" content="Hridoye Sunnah — Islamic knowledge, hadith, prayer times and dawah tools for Muslims worldwide">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>হৃদয়ে সুন্নাহ | Hridoye Sunnah</title>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="#" data-page="home"><img src="logo.svg" alt="Hridoye Sunnah logo"><span><b>হৃদয়ে সুন্নাহ</b><small>HRIDOYE SUNNAH</small></span></a>
+    <nav class="side-nav" aria-label="প্রধান নেভিগেশন">
+      <button data-page="home" class="nav-link active"><span>⌂</span> হোম</button>
+      <button data-page="generator" class="nav-link"><span>✦</span> AI স্ক্রিপ্ট জেনারেটর</button>
+      <button data-page="scripts" class="nav-link"><span>▤</span> স্ক্রিপ্ট লাইব্রেরি</button>
+      <button data-page="hadith" class="nav-link"><span>۞</span> হাদিস লাইব্রেরি</button>
+      <button data-page="prayer" class="nav-link"><span>◷</span> নামাজের সময়</button>
+      <button data-page="settings" class="nav-link"><span>⚙</span> সেটিংস</button>
+      <button data-page="admin" class="nav-link"><span>♙</span> অ্যাডমিন প্যানেল</button>
+    </nav>
+    <div class="sidebar-foot"><span class="live-dot"></span> আপনার দ্বীনি সঙ্গী <small>Global Edition · PWA</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <button class="mobile-brand" data-page="home"><img src="logo.svg" alt=""> <b>হৃদয়ে সুন্নাহ</b></button>
+      <div class="crumb"><span class="gold-dot"></span><span id="page-crumb">আজকের অনুপ্রেরণা</span></div>
+      <div class="top-actions"><button id="install-btn" class="install-btn" hidden>⇩ ইনস্টল</button><button id="theme-btn" class="icon-btn" aria-label="থিম পরিবর্তন">☼</button><div class="avatar">হস</div></div>
+    </header>
+    <div class="content" id="app-content"></div>
+    <footer class="footer">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ <span>•</span> হৃদয়ে সুন্নাহ — জ্ঞান, আমল ও অনুপ্রেরণা</footer>
+  </main>
+</div>
+<nav class="bottom-nav" aria-label="মোবাইল নেভিগেশন">
+<button data-page="home" class="active"><span>⌂</span><small>হোম</small></button><button data-page="generator"><span>✦</span><small>AI স্ক্রিপ্ট</small></button><button data-page="hadith"><span>۞</span><small>হাদিস</small></button><button data-page="prayer"><span>◷</span><small>নামাজ</small></button><button data-page="settings"><span>⚙</span><small>সেটিংস</small></button>
+</nav>
+<div id="toast" class="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>

@@ -1,0 +1,19 @@
+{
+  "name": "Hridoye Sunnah — Global Islamic Companion",
+  "short_name": "Hridoye Sunnah",
+  "description": "Global Islamic companion for hadith, prayer times, qibla and dawah content.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#061126",
+  "theme_color": "#07152f",
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
